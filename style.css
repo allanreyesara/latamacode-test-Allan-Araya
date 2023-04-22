@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script:regular,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body { 
     margin: 0;
 }
@@ -22,7 +26,7 @@ body {
     padding: 0;
     display: inline-flex;
     text-align: center;
-    position: absolute;
+    position: fixed;
     z-index: 999;
 }
 
@@ -53,6 +57,11 @@ nav {
     line-height: 30.07px;
     text-align: left;
     text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 nav ul {

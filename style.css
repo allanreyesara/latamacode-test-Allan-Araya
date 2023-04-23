@@ -125,6 +125,7 @@ nav ul li:hover {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 50px;
+    border-style: none;
 }
 
 .header_background_text img{
